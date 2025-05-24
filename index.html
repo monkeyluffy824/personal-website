@@ -6,6 +6,7 @@
     <link rel="stylesheet" media="(prefers-color-scheme:dark)" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/dark.css" onload="document.documentElement.classList.add('sl-theme-dark');" />
 </head>
 <body>
+  <sl-card class="top">
   <section class="hero">
      <div>
       <h1>Hi, I'm Panangipalli Sai Charan.</h1>
@@ -22,7 +23,10 @@
          </ul>
       <sl-button variant="primary" style="margin-top: 1rem;" onclick="viewFile()">View Resume</sl-button>
     </div>
-    <img src="images/photo.jpg" alt="Profile Illustration" width="300" />
+    <div class="seperator"> 	<sl-animation name="bounce" duration="2000" play ><div class="box"><img src="images/photo.jpg" alt="Profile Illustration" width="300"/></div></sl-animation>
+</div>
+    
+    
   </section>
     <h2>Projects</h2>
   <div class="projects">
@@ -132,5 +136,7 @@
     <sl-button variant="primary" style="margin-top: 1.5rem;" type="submit">Send Message</sl-button>
   </form>
 </div>
+  </sl-card>
+
 <script src="script.js"></script>
 </body>
