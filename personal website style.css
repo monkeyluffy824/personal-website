@@ -1,0 +1,43 @@
+body{
+        font-family: sans-serif;
+        background-color: #fdfdfd;
+        margin: 0;
+        padding: 2rem;
+      }
+      .container{
+        max-width:1200px;
+        margin:auto;
+      }
+      .hero{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          align-items: center;
+          gap: 2rem;
+          padding: 4rem 0;
+      }
+      .projects {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    sl-card {
+      --border-radius: 1rem;
+    }
+
+    .contact-form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    h1, h2 {
+      color: #222;
+    }
+
+    .tags sl-tag {
+      margin-right: 0.5rem;
+      margin-top: 0.5rem;
+    }

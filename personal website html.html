@@ -1,0 +1,136 @@
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+    <link rel="stylesheet" media="(prefers-color-scheme:light)" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css" />
+	<link rel="stylesheet" href="personal website style.css">
+    <link rel="stylesheet" media="(prefers-color-scheme:dark)" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/dark.css" onload="document.documentElement.classList.add('sl-theme-dark');" />
+</head>
+<body>
+  <section class="hero">
+     <div>
+      <h1>Hi, I'm Panangipalli Sai Charan.</h1>
+      <p> 
+          I am a Salesforce Developer from bangalore, with over 2.7 years of experience designing and building high-performance CRM solutions.
+          I specialize in Apex development, Lightning Web Components, and system integrations, with a strong focus on writing scalable, maintainable code. My work often involves building new lwc with clean UI based on requirements,           building business solutions using salesforce automations like flows, process builders etc, writing apex code and also integrating salesforce systems with other internal business systems.
+          I enjoy solving complex business problems and also I build few hobby projects exploring other tech stacks as well.
+      </p>
+       <h2 style="margin-top: 1rem;">Hobbies</h2> 
+         <ul>
+           <li>Reading Books</li>
+           <li>Writing stories and poems</li>
+           <li>Watching movies</li>
+         </ul>
+      <sl-button variant="primary" style="margin-top: 1rem;" onclick="viewFile()">View Resume</sl-button>
+    </div>
+    <img src="images/photo.jpg" alt="Profile Illustration" width="300" />
+  </section>
+    <h2>Projects</h2>
+  <div class="projects">
+    <sl-card>
+      <strong>JSON to apex Tool</strong><br/>
+      Created a simple json to apex class converter tool, where based on the given json object
+      sample, apex wrapper class will be created bulit using vanilla js and Lightning web components.<br/>
+      <div class="tags">
+        <sl-tag pill>Lightning web Compoenets</sl-tag>
+        <sl-tag pill>JavaScript</sl-tag>
+      </div>
+      <br/>
+      <sl-button slot="footer" variant="primary">Try It out</sl-button>
+    </sl-card>
+
+    <sl-card>
+      <strong>Voice Navigation in Salesforce org using ML Model</strong><br/>
+      Created a prototype where user can navigate to any entity or application in his/her Salesforce
+      org, built using transformer.js and openai whisper voice to text ML model..<br/>
+      <div class="tags">
+        <sl-tag pill>Hugging Face model</sl-tag>
+        <sl-tag pill>Transformer JS</sl-tag>
+        <sl-tag pill>Lightning Web Compoenets</sl-tag>
+        <sl-tag pill>Apex</sl-tag>
+        <sl-tag pill>Static Resource</sl-tag>
+      </div>
+      <br/>
+    </sl-card>
+
+    <sl-card>
+      <strong>Case Creation in Salesforce through a QR code</strong><br/>
+      This application is designed with two key functionalities: QR Code Generation and Case
+      Creation via QR Code Scanning, providing streamlined workflows and enhanced accuracy.<br/>
+       <ul>
+         <li><b>QR Code Generator</b>
+             <ul>
+              <li>Developed using Screen Flow, Lightning Web Components (LWC), and qrcode.js.
+                  Generates QR codes containing essential information, such as purchaser identifier, product
+                  details, asset details, and purchaser-specific configurations.
+                  Includes a print functionality, allowing users to create physical copies of the generated QR
+                  codes for easy distribution or future use.</li>   
+             </ul>     
+         </li>
+         <li><b>Case Creation via QR Code Scanning</b>
+             <ul>
+              <li>Built using HTML5 QR Scanner and Lightning Web Components.
+                  Enables users to scan QR codes either through the device camera or by uploading an image
+                  containing the QR code.
+                  Automatically decodes the QR code to prepopulate purchaser-specific configurations and
+                  relevant details, minimizing manual data entry.
+                  Significantly accelerates case creation by requiring users to fill only a few additional fields,
+                  ensuring faster processing and improved data accuracy.
+                  This application offers a seamless experience for generating and leveraging QR codes,
+                  simplifying complex workflows, and ensuring precision in case creation.
+               </li>   
+             </ul>     
+         </li>
+      </ul>
+      <div class="tags">
+        <sl-tag pill>Salesforce OutBound Integration</sl-tag>
+        <sl-tag pill>Lightning Web Componnets</sl-tag>
+        <sl-tag pill>flows</sl-tag>
+        <sl-tag pill>Static Resource</sl-tag>
+        <sl-tag pill>Apex</sl-tag>
+        <sl-tag pill>Named Credentials</sl-tag>
+      </div>
+      <br/>
+    </sl-card>
+    <sl-card>
+      <strong>Document Creation in Salesforce</strong><br/>
+      Designed and implemented a comprehensive document management application within
+      Salesforce using Lightning Web Components (LWC) and Sun Editor. This robust application
+      empowers users to create and manage documents directly in Salesforce, eliminating the
+      need for external tools. It offers a rich text editing experience with a wide range of features,
+      including customizable fonts, colors, and styles, as well as advanced formatting options like
+      table creation and image embedding.<br/>
+       <ul>
+         <li> Users can seamlessly create, edit, update, and delete documents with intuitive CRUD
+              operations. The application also provides flexibility to export documents in various formats,
+              print them directly, or save them locally for offline access. To enhance data security and
+              accessibility, all documents are automatically stored in the Salesforce cloud upon saving,
+              ensuring they are integrated into the Salesforce ecosystem.
+         </li>
+         <li> This solution not only streamlines document management but also integrates tightly with
+              Salesforce workflows, providing an efficient and user-friendly platform for creating, editing,
+              and storing documents in a secure and centralized environment.    
+         </li>
+      </ul>
+      <div class="tags">
+        <sl-tag pill>Salesforce Managed Package</sl-tag>
+        <sl-tag pill>Lightning Web Componnets</sl-tag>
+        <sl-tag pill>HTML Editor</sl-tag>
+        <sl-tag pill>Static Resource</sl-tag>
+        <sl-tag pill>Apex</sl-tag>
+      </div>
+      <br/>
+      <sl-button slot="footer" variant="primary">Try it out in your salesforce sandbox</sl-button>
+    </sl-card>
+  </div>
+    <h2 style="margin-top: 3rem;">Contact</h2>
+  <form class="contact-form" action="https://formsubmit.co/anonymouswritings2@gmail.com" method="POST">
+    <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+	<input type="hidden" name="_subject" value="New contact!">
+    <sl-input label="Name" placeholder="Your name" required></sl-input>
+    <sl-input label="Email" type="email" placeholder="your@email.com" required></sl-input>
+    <sl-textarea label="Message" rows="5" placeholder="Your message..." required></sl-textarea>
+    <sl-button variant="primary" style="margin-top: 1.5rem;" type="submit">Send Message</sl-button>
+  </form>
+</div>
+<script src='personal website script.js'></script>
+</body>
