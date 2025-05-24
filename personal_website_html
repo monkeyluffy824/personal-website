@@ -132,5 +132,5 @@
     <sl-button variant="primary" style="margin-top: 1.5rem;" type="submit">Send Message</sl-button>
   </form>
 </div>
-<script src='personal_website_script.js'></script>
+<script src="personal_website_script.js"></script>
 </body>
