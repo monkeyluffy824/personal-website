@@ -9,3 +9,11 @@ function viewApex(){
 function viewPackage(){
 	window.open("https://login.salesforce.com/packaging/installPackage.apexp?p0=04tdL0000006yBB", "_blank");
 }
+
+function viewAutoDub(){
+	window.open("https://microsoftedge.microsoft.com/addons/detail/jmgjimcfjelobakapfmpnghdebmlejnk", "_blank");
+}
+
+function viewSalesforceVisualizer(){
+	window.open("https://microsoftedge.microsoft.com/addons/detail/hgjegnpnlkfahkdfknanhgdjodccigcp", "_blank");
+}
