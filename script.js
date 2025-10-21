@@ -21,3 +21,7 @@ function viewSalesforceVisualizer(){
 function viewOmniGrad(){
 	window.open("https://github.com/monkeyluffy824/omnigrad", "_blank");
 }
+
+function viewPricePredictor(){
+	window.open("https://price-predictor-flfq.onrender.com", "_blank");
+}
