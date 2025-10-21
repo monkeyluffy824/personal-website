@@ -17,3 +17,7 @@ function viewAutoDub(){
 function viewSalesforceVisualizer(){
 	window.open("https://microsoftedge.microsoft.com/addons/detail/hgjegnpnlkfahkdfknanhgdjodccigcp", "_blank");
 }
+
+function viewOmniGrad(){
+	window.open("https://github.com/monkeyluffy824/omnigrad", "_blank");
+}
