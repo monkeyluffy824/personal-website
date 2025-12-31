@@ -25,3 +25,7 @@ function viewOmniGrad(){
 function viewPricePredictor(){
 	window.open("https://price-predictor-flfq.onrender.com", "_blank");
 }
+
+function viewFlowAnalyzer(){
+	window.open("https://microsoftedge.microsoft.com/addons/detail/kdaladfndjjgjlaflegomjnfpaipcfid","_blank");
+}
