@@ -29,3 +29,7 @@ function viewPricePredictor(){
 function viewFlowAnalyzer(){
 	window.open("https://microsoftedge.microsoft.com/addons/detail/kdaladfndjjgjlaflegomjnfpaipcfid","_blank");
 }
+
+function viewFlowAnalyzerChrome(){
+	window.open("https://chromewebstore.google.com/detail/khebcjhnfkfggngggmpdlaefnmhkpnmi","_blank");
+}
