@@ -33,3 +33,7 @@ function viewFlowAnalyzer(){
 function viewFlowAnalyzerChrome(){
 	window.open("https://chromewebstore.google.com/detail/khebcjhnfkfggngggmpdlaefnmhkpnmi","_blank");
 }
+
+function viewApexViz(){
+	window.open("https://marketplace.visualstudio.com/items?itemName=PanangipalliSaiCharan.apexviz");
+}

@@ -31,9 +31,21 @@
     
     
   </section>
-    <h2>Projects</h2>
-  <div class="projects">
-    <sl-card>
+    <h2>Featured Projects</h2>
+	<div class="projects">
+	<sl-card>
+      <strong>Apex Viz</strong><br/>
+      ApexViz is an offline VS Code extension visual Aid tool that converts Apex code into structured, flowchart-style diagrams similar to Salesforce Flows.</br>
+      <div class="tags">
+        <sl-tag pill>Mermaid</sl-tag>
+        <sl-tag pill>ANTLR4</sl-tag>
+		<sl-tag pill>Salesforce apex</sl-tag>
+		<sl-tag pill>visualization</sl-tag>
+      </div>
+      <br/>
+      <sl-button slot="footer" variant="primary"  onclick="viewApexViz()">Try it out</sl-button>
+    </sl-card>
+	<sl-card>
       <strong>Salesforce Flow Analyzer</strong><br/>
       An extension that deeply analyzes Salesforce Flow XML files to identify best practice violations, performance bottlenecks, and common configuration mistakes. It provides clear, actionable insights and instant feedback to help developers build more efficient, reliable, and maintainable Salesforce Flows.<br/>
       <div class="tags">
@@ -47,6 +59,9 @@
       <sl-button slot="footer" variant="primary"  onclick="viewFlowAnalyzer()">Try it out on Edge</sl-button>
 	  <sl-button slot="footer" variant="primary"  onclick="viewFlowAnalyzerChrome()" style="padding-left: 20px;" >Try it out on Chrome</sl-button>
     </sl-card>
+	</div>
+    <h2>Additional Projects</h2>
+  <div class="projects">
     <sl-card>
       <strong>Omnigrad</strong><br/>
       A scalar-valued autograd engine python Library, consider this like an extension of micrograd with support of more complex functions<br/>
@@ -60,17 +75,6 @@
       </div>
       <br/>
       <sl-button slot="footer" variant="primary"  onclick="viewOmniGrad()">View</sl-button>
-    </sl-card>
-	<sl-card>
-      <strong>Product Price Estimator</strong><br/>
-      A simple static website which helps in setting acurate price for your business.<br/>
-      <div class="tags">
-        <sl-tag pill>JavaScript</sl-tag>
-        <sl-tag pill>Beta Stage</sl-tag>
-		<sl-tag pill>HTML</sl-tag>
-      </div>
-      <br/>
-      <sl-button slot="footer" variant="primary"  onclick="viewPricePredictor()">View</sl-button>
     </sl-card>
     <sl-card>
       <strong>Salesforce Object Trigger Visualizer</strong><br/>
@@ -106,9 +110,6 @@
       <br/>
       <sl-button slot="footer" variant="primary"  onclick="viewApex()">Try It out</sl-button>
     </sl-card>
-
-   
-
     <sl-card>
       <strong>Case Creation in Salesforce through a QR code</strong><br/>
       This application is designed with two key functionalities: QR Code Generation and Case
@@ -177,6 +178,17 @@
       </div>
       <br/>
       <sl-button slot="footer" variant="primary" onclick="viewPackage()">Try it out in your salesforce sandbox</sl-button>
+    </sl-card>
+	<sl-card>
+      <strong>Product Price Estimator</strong><br/>
+      A simple static website which helps in setting acurate price for your business.<br/>
+      <div class="tags">
+        <sl-tag pill>JavaScript</sl-tag>
+        <sl-tag pill>Beta Stage</sl-tag>
+		<sl-tag pill>HTML</sl-tag>
+      </div>
+      <br/>
+      <sl-button slot="footer" variant="primary"  onclick="viewPricePredictor()">View</sl-button>
     </sl-card>
   </div>
     <h2 style="margin-top: 3rem;">Contact</h2>
