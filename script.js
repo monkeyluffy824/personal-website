@@ -37,3 +37,7 @@ function viewFlowAnalyzerChrome(){
 function viewApexViz(){
 	window.open("https://marketplace.visualstudio.com/items?itemName=PanangipalliSaiCharan.apexviz");
 }
+
+function viewRulesForge(){
+	window.open("https://github.com/monkeyluffy824/RulesForge", "_blank");
+}
