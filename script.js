@@ -1,5 +1,5 @@
 function viewFile() {
-  window.open("files/panangipallisaicharannovresume.pdf", "_blank");
+  window.open("files/PanangipalliSaiCharanFinalResume.pdf", "_blank");
 }
 
 function viewApex(){
